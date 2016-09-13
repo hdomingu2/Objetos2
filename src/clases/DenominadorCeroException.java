@@ -9,7 +9,7 @@ package clases;
  *
  * @author hdomingu2
  */
-public class DenominadorCeroException {
+public class DenominadorCeroException extends Exception{
     
     public DenominadorCeroException() {
         super("No se permite denominadores en cero");
